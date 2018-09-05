@@ -9,27 +9,20 @@ public class TicketMachine
 {
     // instance variables - replace the example below with your own
     private int balance;
+    
+    private int price;
+    
+    private int total;
 
     /**
      * Constructor for objects of class TicketMachine
      */
-    public TicketMachine()
+    public TicketMachine(int balance)
     {
         // initialise instance variables
-        balance = 0;
+        this.balance = balance;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return balance + y;
-    }
     
     public int getBalance()
     {
@@ -38,16 +31,44 @@ public class TicketMachine
     
     public int getPrice()
     {
-        return 0;
+        return this.price;
+    }
+    
+    public int getTotal()
+    {
+        return this.total;
     }
     
     public void insertMoney (int amount)
     {
-        
+        if (amount > 0)
+        {
+            this.balance = this.balance + amount;
+        }
+        else
+        {
+            System.out.println("Use a positive amount : " + amount);
+        }
     }
     
     public void printTicket()
     {
+        if (this.balance >= price)
+        {
+            System.out.println("###################");
+            System.out.println("# The BlueJ Line");
+            System.out.println("# Ticket");
+            System.out.println("# " + price + " cents");
+            System.out.println();
+            
+            total = total + price;
+            
+            balance = balance - price;
+        } 
+        else
+        {
+            System.out.println("You must insert at least: " + balance);
+        }
         
     }
     
