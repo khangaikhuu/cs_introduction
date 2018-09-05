@@ -17,10 +17,10 @@ public class TicketMachine
     /**
      * Constructor for objects of class TicketMachine
      */
-    public TicketMachine(int balance)
+    public TicketMachine(int price)
     {
         // initialise instance variables
-        this.balance = balance;
+        this.price = price;
     }
 
     
@@ -59,7 +59,7 @@ public class TicketMachine
             System.out.println("# The BlueJ Line");
             System.out.println("# Ticket");
             System.out.println("# " + price + " cents");
-            System.out.println();
+            System.out.println("###################");
             
             total = total + price;
             
@@ -67,7 +67,7 @@ public class TicketMachine
         } 
         else
         {
-            System.out.println("You must insert at least: " + balance);
+            System.out.println("You must insert at least: " + (price - balance));
         }
         
     }
