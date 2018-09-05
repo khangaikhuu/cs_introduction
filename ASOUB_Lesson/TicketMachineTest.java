@@ -39,4 +39,18 @@ public class TicketMachineTest
     public void tearDown()
     {
     }
+
+    @Test
+    public void insertMoneyTest()
+    {
+        TicketMachine testMachine = new TicketMachine(500);
+        testMachine.insertMoney(350);
+        assertEquals(350, testMachine.getBalance());
+        assertEquals(500, testMachine.getPrice());
+        testMachine.insertMoney(150);
+        assertEquals(500, testMachine.getBalance());
+        assertEquals(500, testMachine.getPrice());
+        testMachine.printTicket();
+    }
 }
+
