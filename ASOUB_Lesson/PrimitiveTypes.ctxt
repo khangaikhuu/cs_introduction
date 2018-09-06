@@ -1,12 +1,16 @@
 #BlueJ class context
 comment0.target=PrimitiveTypes
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ PrimitiveTypes.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
-comment1.params=
-comment1.target=PrimitiveTypes()
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ PrimitiveTypes\r\n
-comment2.params=y
-comment2.target=int\ beispielMethode(int)
-comment2.text=\r\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\r\n\ \r\n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\r\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\r\n
-comment3.params=a\ b
-comment3.target=void\ printOut(int,\ int)
-numComments=4
+comment0.text=\r\n\ My\ first\ PrimitiveTypes\ in\ Java\r\n\r\n\ @author\ (Khangaikhuu)\r\n\ @version\ (Tuesday)\r\n
+comment1.params=a\ b
+comment1.target=int\ addTwoNumbers(int,\ int)
+comment2.params=x
+comment2.target=java.lang.String\ giveMeString(int)
+comment3.params=x
+comment3.target=int\ sumOfNumber(int)
+comment4.params=x
+comment4.target=int\ sumOfNumberWithWhile(int)
+comment5.params=yourName
+comment5.target=void\ printMyNameOut(java.lang.String)
+comment6.params=name
+comment6.target=void\ anotherPrint(java.lang.String)
+numComments=7
