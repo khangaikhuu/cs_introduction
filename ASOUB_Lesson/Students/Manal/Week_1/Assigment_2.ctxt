@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Assigment_2
+comment0.text=\r\n\ Assigment\ 2\r\n\r\n\ @author\ (Manal)\r\n\ @version\ (Wednesday\ week\ 1)\r\n
+comment1.params=yourName
+comment1.target=void\ exercise1(java.lang.String)
+comment2.params=a\ b
+comment2.target=int\ exercise2(int,\ int)
+comment3.params=x\ z
+comment3.target=int\ exercise3(int,\ int)
+comment4.params=myName
+comment4.target=void\ exercise4(java.lang.String)
+comment5.params=age
+comment5.target=void\ exercise5(int)
+numComments=6
