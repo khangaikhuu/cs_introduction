@@ -1,39 +1,79 @@
 
-
 /**
- * Beschreiben Sie hier die Klasse PrimitiveTypes.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * My first PrimitiveTypes in Java
+ *
+ * @author (Khangaikhuu)
+ * @version (Tuesday)
  */
 public class PrimitiveTypes
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
-
-    /**
-     * Konstruktor für Objekte der Klasse PrimitiveTypes
-     */
-    public PrimitiveTypes()
+    int myNumber = 1;
+    double myDoubleNumber = 2.6;
+    float myFloatNumber = 3.4f;
+    boolean isItTrueOrFalse = false;
+    char myChar = 'a';
+    String myString = "Hello World";
+    long myLongNumber = 1123233232;
+    short myShortNumber = 123;
+    
+    public int addTwoNumbers (int a, int b)
     {
-        // Instanzvariable initialisieren
-        x = 0;
-    }
-
-    /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
-     */
-    public int beispielMethode(int y)
-    {
-        // tragen Sie hier den Code ein
-        return x + y;
+        return a + b;
     }
     
-    public void printOut (int a, int b)
+    // please give me a 
+    public String giveMeString (int x)
     {
-        System.out.printf("%d == %d\n", a, b);
+        if (x > 100)
+        {
+            return "too High";
+        }
+        else if ( 50 <= x && x <= 100)
+        {
+            return "in Between";
+        }
+        else
+        {
+            return "too Low";
+        }
+    }
+    
+    public int sumOfNumber(int x)
+    {
+        // i save my sum in this variable
+        int sum = 0;
+        
+        // calculate me the sum with loops
+        for (int i = 1; i <= x; i++)
+        {
+            sum = sum + i;
+        }
+        
+        // returning the sum of given number from 1 to x
+        return sum;
+    }
+    
+    public int sumOfNumberWithWhile(int x)
+    {
+        int sum = 0;
+        int i = 1;
+        while(i < x)
+        {
+            sum = sum + i;
+            i = i + 1;
+        }
+        
+        return sum;
+    }
+    
+    private void printMyNameOut(String yourName)
+    {
+        System.out.println("My Name is : " + yourName);
+    }
+    
+    
+    protected void anotherPrint(String name)
+    {
+        printMyNameOut(name);
     }
 }
