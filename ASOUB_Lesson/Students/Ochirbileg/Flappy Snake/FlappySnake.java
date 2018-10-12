@@ -16,7 +16,11 @@ public class FlappySnake extends Actor
      */
     public void act() 
     {
-        setLocation(getX(), getY() + dy);
+        setLocation( getX(), (int)(getY() + dy));
+        if (Greenfoot.isKeyDown("up") == true)
+        {
+            dy = -10;
+        }
         dy = dy + g;
         setRotation(30);
         // Add your action code here.
