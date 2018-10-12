@@ -6,6 +6,33 @@ dependency2.from=TicketMachineTest
 dependency2.to=TicketMachine
 dependency2.type=UsesDependency
 <<<<<<< HEAD
+dependency3.from=Connections
+dependency3.to=Nodes
+dependency3.type=UsesDependency
+dependency4.from=connection
+dependency4.to=node
+dependency4.type=UsesDependency
+dependency5.from=PrimitiveTypesTest
+dependency5.to=PrimitiveTypes
+dependency5.type=UsesDependency
+editor.fx.0.height=738
+editor.fx.0.width=816
+editor.fx.0.x=104
+editor.fx.0.y=-3
+objectbench.height=106
+objectbench.width=996
+package.divider.horizontal=0.6
+package.divider.vertical=0.8180354267310789
+package.editor.height=501
+package.editor.width=906
+package.editor.x=-147
+package.editor.y=20
+package.frame.height=720
+package.frame.width=1036
+package.numDependencies=5
+package.numTargets=16
+=======
+<<<<<<< HEAD
 dependency3.from=robot
 dependency3.to=HandR
 dependency3.type=UsesDependency
@@ -79,6 +106,7 @@ package.numDependencies=2
 package.numTargets=7
 >>>>>>> 5c35efbdf2eb3e99322394f1686d88d4602a44d9
 >>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
+>>>>>>> 1e66fa6087ff955d5c6a79b535553e21850c369e
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -88,6 +116,74 @@ readme.width=47
 readme.x=10
 readme.y=10
 target1.height=50
+<<<<<<< HEAD
+target1.name=Connections
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=100
+target1.x=560
+target1.y=330
+target10.height=50
+target10.name=node
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=80
+target10.x=70
+target10.y=110
+target11.height=50
+target11.name=AssignmentThreeTest
+target11.showInterface=false
+target11.type=UnitTestTargetJunit4
+target11.width=130
+target11.x=720
+target11.y=80
+target12.height=50
+target12.name=connection
+target12.showInterface=false
+target12.type=ClassTarget
+target12.width=90
+target12.x=70
+target12.y=10
+target13.height=50
+target13.name=TicketMachineTest
+target13.showInterface=false
+target13.type=UnitTestTargetJunit4
+target13.width=120
+target13.x=600
+target13.y=80
+target14.association=AssignmentThreeTest
+target14.height=50
+target14.name=AssignmentThree
+target14.showInterface=false
+target14.type=ClassTarget
+target14.width=130
+target14.x=690
+target14.y=110
+target15.height=50
+target15.name=internet
+target15.showInterface=false
+target15.type=ClassTarget
+target15.width=80
+target15.x=50
+target15.y=210
+target16.height=50
+target16.name=time8
+target16.showInterface=false
+target16.type=ClassTarget
+target16.width=80
+target16.x=50
+target16.y=330
+target2.association=PrimitiveTypesTest
+target2.height=50
+target2.name=PrimitiveTypes
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=120
+target2.x=450
+target2.y=110
+target3.height=50
+target3.name=PrimitiveTypesTest
+=======
 target1.name=LegR
 target1.showInterface=false
 target1.type=ClassTarget
@@ -202,6 +298,7 @@ target2.y=160
 >>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target3.height=50
 target3.name=AssignmentTwo
+>>>>>>> 1e66fa6087ff955d5c6a79b535553e21850c369e
 target3.showInterface=false
 <<<<<<< HEAD
 target3.type=ClassTarget
@@ -210,6 +307,20 @@ target3.x=980
 target3.y=170
 =======
 target3.type=UnitTestTargetJunit4
+<<<<<<< HEAD
+target3.width=120
+target3.x=480
+target3.y=80
+target4.height=50
+target4.name=panda
+target4.showInterface=false
+target4.type=ClassTarget
+target4.width=80
+target4.x=257
+target4.y=271
+target5.height=50
+target5.name=AssignmentTwo
+=======
 target3.width=130
 target3.x=660
 target3.y=30
@@ -231,6 +342,7 @@ target5.association=TicketMachineTest
 >>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target5.height=50
 target5.name=TheRepulsiveOne
+>>>>>>> 1e66fa6087ff955d5c6a79b535553e21850c369e
 target5.showInterface=false
 target5.type=ClassTarget
 <<<<<<< HEAD
@@ -239,6 +351,39 @@ target5.x=70
 target5.y=40
 =======
 target5.width=120
+<<<<<<< HEAD
+target5.x=330
+target5.y=110
+target6.height=50
+target6.name=Networking
+target6.showInterface=false
+target6.type=ClassTarget
+target6.width=100
+target6.x=560
+target6.y=230
+target7.association=TicketMachineTest
+target7.height=50
+target7.name=TicketMachine
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=120
+target7.x=570
+target7.y=110
+target8.height=50
+target8.name=Nodes
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=80
+target8.x=560
+target8.y=280
+target9.height=50
+target9.name=HelloWorld
+target9.showInterface=false
+target9.type=ClassTarget
+target9.width=100
+target9.x=230
+target9.y=110
+=======
 target5.x=190
 target5.y=190
 target6.association=AssignmentThreeTest
@@ -284,3 +429,4 @@ target7.width=100
 target7.x=10
 target7.y=90
 >>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
+>>>>>>> 1e66fa6087ff955d5c6a79b535553e21850c369e
