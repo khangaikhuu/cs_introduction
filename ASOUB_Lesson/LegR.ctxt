@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LegR
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LegR\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x
+comment1.target=void\ setheight(int)
+comment2.params=x
+comment2.target=void\ setWidth(int)
+comment3.params=x
+comment3.target=void\ setBoolean(boolean)
+comment4.params=
+comment4.target=int\ getHeight()
+comment5.params=
+comment5.target=int\ setWidth()
+comment6.params=
+comment6.target=boolean\ sethasWheel()
+numComments=7
