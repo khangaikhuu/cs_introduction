@@ -19,11 +19,12 @@ public class Grizzly extends Actor
        setLocation( getX(), getY() + dy);
        dy = dy + g;
     }    
-<<<<<<< HEAD
+
     public class GrizzlyBird extends Actor
     {
         double dy = 0.0;
         double g = 1.0;
+        double dx = 2.0;
         /**
          * Act - dp whatever tje GrizzlyBird wants to do. This method is called whenver.
          * the 'Act' or 'Run' button gets pressed in the environemnt.
@@ -32,15 +33,15 @@ public class Grizzly extends Actor
         
         public void act()
         {
-             setLocation( getX(), (int)(getY() + dy));
+             setLocation ((int ) ( getX() + dx), (int)(getY() + dy));
              if (Greenfoot.isKeyDown("up") == true)
              {
                 dy = 10;
              }
              dy = dy + g;
-             
-        }
+
+              
+        } 
     }
-=======
->>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 }
+
