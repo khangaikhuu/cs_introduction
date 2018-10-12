@@ -8,15 +8,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class FlappyChild extends Actor
 {
-    int dy=2;
-    int g=1;
+    double dy=2;
+    double g=1;
     /**
      * Act - do whatever the FlappyChild wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        setLocation (getX(), getY() + dy);
+        setLocation (getX(),(int)( getY() + dy));
+        
+        if (Greenfoot.isKeyDown("up")== true)
+        {
+            dy = -10;
+        }
       
+        dy = dy + g;
     }    
 }
