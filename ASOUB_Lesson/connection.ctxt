@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=connection
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ connection\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n1\ n2\ n3\ n4\ n5
+comment1.target=connection(node,\ node,\ node,\ node,\ node)
+comment2.params=
+comment2.target=int\ mySizeOfNodes()
+numComments=3
