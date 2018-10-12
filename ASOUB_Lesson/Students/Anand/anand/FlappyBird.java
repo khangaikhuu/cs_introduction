@@ -10,10 +10,10 @@ public class FlappyBird extends Actor
 {
     double dy = 0.0;
     double g = 1.0;
-    
+    double dx = 1.0;
     public void act() 
     {
-        setLocation( getX(), (int)(getY() +dy));
+        setLocation((int)(getX() + dx), (int)(getY() +dy));
         if (Greenfoot.isKeyDown("up") == true)
         {
             dy = -10;
