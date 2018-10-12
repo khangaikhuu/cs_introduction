@@ -5,6 +5,7 @@ dependency1.type=UsesDependency
 dependency2.from=TicketMachineTest
 dependency2.to=TicketMachine
 dependency2.type=UsesDependency
+<<<<<<< HEAD
 dependency3.from=robot
 dependency3.to=HandR
 dependency3.type=UsesDependency
@@ -26,22 +27,58 @@ dependency8.type=UsesDependency
 dependency9.from=Connection
 dependency9.to=Node
 dependency9.type=UsesDependency
+=======
+<<<<<<< HEAD
+dependency3.from=TicketMachineTest
+dependency3.to=TicketMachine
+dependency3.type=UsesDependency
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 objectbench.height=105
 objectbench.width=801
 package.divider.horizontal=0.600297176820208
+=======
+objectbench.height=317
+objectbench.width=710
+package.divider.horizontal=0.569047619047619
+package.divider.vertical=0.64
+package.editor.height=569
+package.editor.width=1166
+package.editor.x=1912
+package.editor.y=-8
+package.frame.height=1000
+package.frame.width=1296
+package.numDependencies=3
+package.numTargets=6
+=======
+editor.fx.0.height=744
+editor.fx.0.width=1296
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+objectbench.height=105
+objectbench.width=749
+package.divider.horizontal=0.6
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 package.divider.vertical=0.8260869565217391
 package.editor.height=525
 package.editor.width=1252
 package.editor.x=-172
 package.editor.y=98
 package.frame.height=744
+<<<<<<< HEAD
 package.frame.width=1382
 package.numDependencies=9
 package.numTargets=21
+=======
+package.frame.width=1296
+package.numDependencies=2
+package.numTargets=7
+>>>>>>> 5c35efbdf2eb3e99322394f1686d88d4602a44d9
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -54,6 +91,7 @@ target1.height=50
 target1.name=LegR
 target1.showInterface=false
 target1.type=ClassTarget
+<<<<<<< HEAD
 target1.width=80
 target1.x=690
 target1.y=180
@@ -150,31 +188,66 @@ target21.type=ClassTarget
 target21.width=130
 target21.x=970
 target21.y=50
+=======
+target1.width=120
+target1.x=250
+target1.y=60
+target2.height=50
+target2.name=AssignmentTwo
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=120
+target2.x=640
+target2.y=160
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target3.height=50
 target3.name=AssignmentTwo
 target3.showInterface=false
+<<<<<<< HEAD
 target3.type=ClassTarget
 target3.width=120
 target3.x=980
 target3.y=170
+=======
+target3.type=UnitTestTargetJunit4
+target3.width=130
+target3.x=660
+target3.y=30
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target4.height=50
 target4.name=Help
 target4.showInterface=false
+<<<<<<< HEAD
 target4.type=ClassTarget
 target4.width=80
 target4.x=1100
 target4.y=170
+=======
+target4.type=UnitTestTargetJunit4
+target4.width=120
+target4.x=220
+target4.y=160
+target5.association=TicketMachineTest
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target5.height=50
 target5.name=TheRepulsiveOne
 target5.showInterface=false
 target5.type=ClassTarget
+<<<<<<< HEAD
 target5.width=130
 target5.x=70
 target5.y=40
+=======
+target5.width=120
+target5.x=190
+target5.y=190
+target6.association=AssignmentThreeTest
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 target6.height=50
 target6.name=iRobot
 target6.showInterface=false
 target6.type=ClassTarget
+<<<<<<< HEAD
 target6.width=80
 target6.x=530
 target6.y=180
@@ -199,3 +272,15 @@ target9.type=ClassTarget
 target9.width=80
 target9.x=250
 target9.y=90
+=======
+target6.width=130
+target6.x=630
+target6.y=60
+target7.height=50
+target7.name=HelloWorld
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=100
+target7.x=10
+target7.y=90
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490

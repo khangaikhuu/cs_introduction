@@ -19,6 +19,7 @@ public class Grizzly extends Actor
        setLocation( getX(), getY() + dy);
        dy = dy + g;
     }    
+<<<<<<< HEAD
     public class GrizzlyBird extends Actor
     {
         double dy = 0.0;
@@ -40,4 +41,6 @@ public class Grizzly extends Actor
              
         }
     }
+=======
+>>>>>>> 02c233f14fd4207b5e5817a6ba05137c1c5ee490
 }
