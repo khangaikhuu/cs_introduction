@@ -10,17 +10,37 @@ public class flappybird extends Actor
 {
     double dy = 0.0;
     double g = 1.0;
-    double dx = 2.0;
+    double BOOST_SPEED = -10;
     
     public void act() 
     {
-        setLocation( (int)(getX() + dx), (int)(getY() + dy));
+        if (getOneIntersectingObject(Pipe.class) != null){
+            displayGameOver();
+        }
+        
+        rotateFlappyBird();
+        setLocation( getX(), (int)(getY() + dy));
         
         if (Greenfoot.isKeyDown("up") == true){
-            dy = -10;
+            dy = BOOST_SPEED;
+        }
+        
+        if (getY() > getWorld().getHeight()){
+            gameover gameOver = new gameover();
+            getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+            Greenfoot.stop();
         }
 
         dy = dy + g;
-        setRotation(30);
-    }    
+    }
+    
+    private void displayGameOver(){
+        displayGameOver();
+    }
+    
+    private void rotateFlappyBird(){
+        if (dy < 1){
+            setRotation(-30);
+        }
+    }
 }
