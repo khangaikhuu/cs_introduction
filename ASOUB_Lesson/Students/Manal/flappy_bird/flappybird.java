@@ -10,7 +10,7 @@ public class flappybird extends Actor
 {
     double dy = 0.0;
     double g = 1.0;
-    double BOOST_SPEED = -10;
+    double BOOST_SPEED = -8;
     
     public void act() 
     {

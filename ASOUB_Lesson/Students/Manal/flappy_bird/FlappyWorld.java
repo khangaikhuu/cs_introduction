@@ -21,13 +21,13 @@ public class flappyworld extends World
     public flappyworld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(640, 800, 1, false);
+        super(600,400, 1, false);
         
         setPaintOrder(gameover.class, flappybird.class, Pipe.class);
         
         flappybird flappy = new flappybird();
         
-        addObject(flappy, 100, 490);
+        addObject(flappy, 100, getHeight()/2);
         
         scoreObj = new Score();
         scoreObj.setScore(0);
