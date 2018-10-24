@@ -10,7 +10,7 @@ public class flappybird extends Actor
 {
     double dy = 0.0;
     double g = 1.0;
-    double BOOST_SPEED = -8;
+    double BOOST_SPEED = -5;
     
     public void act() 
     {
@@ -21,7 +21,7 @@ public class flappybird extends Actor
         rotateFlappyBird();
         setLocation( getX(), (int)(getY() + dy));
         
-        if (Greenfoot.isKeyDown("up") == true){
+        if (Greenfoot.isKeyDown("space") == true){
             dy = BOOST_SPEED;
         }
         
