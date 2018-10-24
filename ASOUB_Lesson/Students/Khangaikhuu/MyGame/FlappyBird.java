@@ -8,16 +8,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class FlappyBird extends Actor
 {
-    int dy = 1;
-    int g = 2;
+    double dy = 0.0;
+    double g = 1.0;
     /**
      * Act - do whatever the FlappyBird wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        setLocation( getX(), getY() + dy);
+        setLocation( getX(), (int)(getY() + dy));
+        
+        if (Greenfoot.isKeyDown("up") == true)
+        {
+            dy = -10;
+        }
         dy = dy + g;
-        setRotation(30);
     }    
 }

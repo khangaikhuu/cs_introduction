@@ -8,13 +8,39 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class flappybird extends Actor
 {
-    int dy = 1;
-    int g = 2;
+    double dy = 0.0;
+    double g = 1.0;
+    double BOOST_SPEED = -8;
     
     public void act() 
     {
-        setLocation( getX(), getY() + dy);
+        if (getOneIntersectingObject(Pipe.class) != null){
+            displayGameOver();
+        }
+        
+        rotateFlappyBird();
+        setLocation( getX(), (int)(getY() + dy));
+        
+        if (Greenfoot.isKeyDown("up") == true){
+            dy = BOOST_SPEED;
+        }
+        
+        if (getY() > getWorld().getHeight()){
+            gameover gameOver = new gameover();
+            getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+            Greenfoot.stop();
+        }
+
         dy = dy + g;
-        setRotation(30);
-    }    
+    }
+    
+    private void displayGameOver(){
+        displayGameOver();
+    }
+    
+    private void rotateFlappyBird(){
+        if (dy < 1){
+            setRotation(-30);
+        }
+    }
 }

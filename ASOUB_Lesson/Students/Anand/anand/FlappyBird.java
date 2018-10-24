@@ -8,13 +8,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class FlappyBird extends Actor
 {
-    int dy = 2;
-    int g = 2;
-    
+    double dy = 0.0;
+    double g = 1.0;
+    double dx = 1.0;
     public void act() 
     {
-        setLocation( getX(), getY() +dy);
-        dy = dy + g;
-        setRotation(30);
+        setLocation((int)(getX() + dx), (int)(getY() +dy));
+        if (Greenfoot.isKeyDown("up") == true)
+        {
+            dy = -10;
+        }
+            dy = dy + g;
+            setRotation(30);
     }    
 }
