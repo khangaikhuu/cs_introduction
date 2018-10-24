@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Flappyworld extends World
+public class FlappyWorld extends World
 {
     int pipeCounter = 0;
     int flappyCounter = 0;
@@ -18,7 +18,7 @@ public class Flappyworld extends World
      * Constructor for objects of class flappyworld.
      * 
      */
-    public Flappyworld()
+    public FlappyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600,400, 1, false);
