@@ -26,12 +26,6 @@ public class FlappyWorld extends World
         setPaintOrder(gameover.class, flappybird.class, Pipe.class);
         
         flappybird flappy = new flappybird();
-        
-        addObject(flappy, 100, getHeight()/2);
-        
-        scoreObj = new Score();
-        scoreObj.setScore(0);
-        
         addObject(scoreObj, 100, 100);
     }
     

@@ -24,11 +24,19 @@ dependency5.type=UsesDependency
 dependency6.from=flappybird
 dependency6.to=Pipe
 dependency6.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=744
 editor.fx.0.width=1382
 editor.fx.0.x=-186
 editor.fx.0.y=70
 height=744
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=306
+editor.fx.0.y=10
+height=784
+>>>>>>> 0f33cb65ad2482985757f96e9cbf753900c5ed98
 package.numDependencies=6
 package.numTargets=5
 project.charset=UTF-8
