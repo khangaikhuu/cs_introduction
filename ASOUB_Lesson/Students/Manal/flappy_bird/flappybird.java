@@ -26,6 +26,7 @@ public class flappybird extends Actor
         }
         
         if (getY() > getWorld().getHeight()){
+            System.out.println("Game Over");
             gameover gameOver = new gameover();
             getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
             Greenfoot.stop();

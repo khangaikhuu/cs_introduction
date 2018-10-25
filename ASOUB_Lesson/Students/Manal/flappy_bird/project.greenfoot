@@ -1,4 +1,11 @@
 #Greenfoot project file
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+class.FlappyWorld.image=725e5dc00ba49c240cd489e7b87e0496.jpg
+>>>>>>> 34b3161818e5aaa100df3b5e5067c1c85358fba4
+>>>>>>> 46eab3c93c2dd6c1f6c4e5ce37e2cdfcc97f9a6b
 class.Pipe.image=pipe1.jpg
 class.flappybird.image=flappybird1.png
 class.gameover.image=game_over.png
@@ -21,11 +28,19 @@ dependency6.from=flappybird
 dependency6.to=Pipe
 dependency6.type=UsesDependency
 <<<<<<< HEAD
+<<<<<<< HEAD
 editor.fx.0.height=755
 editor.fx.0.width=989
 editor.fx.0.x=346
 editor.fx.0.y=89
 height=28
+=======
+editor.fx.0.height=744
+editor.fx.0.width=1382
+editor.fx.0.x=-186
+editor.fx.0.y=70
+height=744
+>>>>>>> 46eab3c93c2dd6c1f6c4e5ce37e2cdfcc97f9a6b
 =======
 editor.fx.0.height=739
 editor.fx.0.width=816
@@ -74,7 +89,7 @@ target4.height=50
 target4.name=Flappyworld
 target4.showInterface=false
 target4.type=ClassTarget
-target4.width=120
+target4.width=90
 target4.x=0
 target4.y=0
 target5.height=50
