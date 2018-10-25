@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class flappyworld extends World
+public class FlappyWorld extends World
 {
     int pipeCounter = 0;
     int flappyCounter = 0;
@@ -18,7 +18,7 @@ public class flappyworld extends World
      * Constructor for objects of class flappyworld.
      * 
      */
-    public flappyworld()
+    public FlappyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600,400, 1, false);
@@ -26,12 +26,6 @@ public class flappyworld extends World
         setPaintOrder(gameover.class, flappybird.class, Pipe.class);
         
         flappybird flappy = new flappybird();
-        
-        addObject(flappy, 100, getHeight()/2);
-        
-        scoreObj = new Score();
-        scoreObj.setScore(0);
-        
         addObject(scoreObj, 100, 100);
     }
     

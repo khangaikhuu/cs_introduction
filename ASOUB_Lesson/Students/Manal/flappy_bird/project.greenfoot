@@ -1,7 +1,15 @@
 #Greenfoot project file
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+class.FlappyWorld.image=725e5dc00ba49c240cd489e7b87e0496.jpg
+>>>>>>> 34b3161818e5aaa100df3b5e5067c1c85358fba4
+>>>>>>> 46eab3c93c2dd6c1f6c4e5ce37e2cdfcc97f9a6b
 class.Pipe.image=pipe1.jpg
 class.flappybird.image=flappybird1.png
 class.gameover.image=game_over.png
+<<<<<<< HEAD
 dependency1.from=FlappyWorld
 dependency1.to=Score
 dependency1.type=UsesDependency
@@ -12,6 +20,18 @@ dependency3.from=FlappyWorld
 dependency3.to=Pipe
 dependency3.type=UsesDependency
 dependency4.from=FlappyWorld
+=======
+dependency1.from=Flappyworld
+dependency1.to=Score
+dependency1.type=UsesDependency
+dependency2.from=Flappyworld
+dependency2.to=flappybird
+dependency2.type=UsesDependency
+dependency3.from=Flappyworld
+dependency3.to=Pipe
+dependency3.type=UsesDependency
+dependency4.from=Flappyworld
+>>>>>>> 0a798d096d3487dc0f030d09f78f5e9145c5c89d
 dependency4.to=gameover
 dependency4.type=UsesDependency
 dependency5.from=flappybird
@@ -20,11 +40,27 @@ dependency5.type=UsesDependency
 dependency6.from=flappybird
 dependency6.to=Pipe
 dependency6.type=UsesDependency
+<<<<<<< HEAD
+<<<<<<< HEAD
 editor.fx.0.height=755
 editor.fx.0.width=989
 editor.fx.0.x=346
 editor.fx.0.y=89
-height=877
+height=28
+=======
+editor.fx.0.height=744
+editor.fx.0.width=1382
+editor.fx.0.x=-186
+editor.fx.0.y=70
+height=744
+>>>>>>> 46eab3c93c2dd6c1f6c4e5ce37e2cdfcc97f9a6b
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=306
+editor.fx.0.y=10
+height=784
+>>>>>>> 0f33cb65ad2482985757f96e9cbf753900c5ed98
 package.numDependencies=6
 package.numTargets=5
 project.charset=UTF-8
@@ -63,7 +99,11 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
+<<<<<<< HEAD
 target4.name=FlappyWorld
+=======
+target4.name=Flappyworld
+>>>>>>> 0a798d096d3487dc0f030d09f78f5e9145c5c89d
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=90
@@ -77,6 +117,13 @@ target5.width=80
 target5.x=0
 target5.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1354
 xPosition=0
 yPosition=23
+=======
+width=160
+world.lastInstantiated=Flappyworld
+xPosition=-32000
+yPosition=-32000
+>>>>>>> 0a798d096d3487dc0f030d09f78f5e9145c5c89d
