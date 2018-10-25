@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Connection
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Connection\ here.\r\n\r\n\ @author\ (Khangaikhuu)\r\n\ @version\ (Wednesday\ Week\ 2)\r\n
+comment1.params=n1\ n2
+comment1.target=Connection(Node,\ Node)
+numComments=2
