@@ -1,4 +1,8 @@
 #Greenfoot project file
+<<<<<<< HEAD
+=======
+class.FlappyWorld.image=725e5dc00ba49c240cd489e7b87e0496.jpg
+>>>>>>> 34b3161818e5aaa100df3b5e5067c1c85358fba4
 class.Pipe.image=pipe1.jpg
 class.flappybird.image=flappybird1.png
 class.gameover.image=game_over.png
