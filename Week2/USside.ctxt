@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=USside
+comment1.params=a\ b
+comment1.target=USside(int,\ int)
+comment2.params=a\ b\ c
+comment2.target=USside(int,\ double,\ int)
+comment3.params=x\ y\ z
+comment3.target=int\ f(int,\ int,\ int)
+comment4.params=rustank
+comment4.target=double\ fightRusTank(double)
+comment5.params=a
+comment5.target=void\ Panda(int)
+numComments=6

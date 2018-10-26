@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=GermanSide
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GermanSide\ here.\r\n\r\n\ @author\ (Tug)\r\n\ @version\ (2018)\r\n
+comment1.params=
+comment1.target=GermanSide()
+comment2.params=a\ b\ c
+comment2.target=GermanSide(int,\ int,\ int)
+comment3.params=a\ b
+comment3.target=int\ calculateAddition(int,\ int)
+comment4.params=a\ b
+comment4.target=int\ calculateSubtract(int,\ int)
+comment5.params=a\ b
+comment5.target=int\ calculateMultiply(int,\ int)
+comment6.params=a\ b
+comment6.target=int\ calculateDivision(int,\ int)
+comment7.params=a\ b
+comment7.target=void\ getGerman(int,\ int)
+numComments=8

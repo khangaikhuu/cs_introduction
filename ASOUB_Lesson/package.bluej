@@ -5,6 +5,12 @@ dependency1.type=UsesDependency
 dependency2.from=TicketMachineTest
 dependency2.to=TicketMachine
 dependency2.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+=======
 dependency3.from=Connections
 dependency3.to=Nodes
 dependency3.type=UsesDependency
@@ -21,6 +27,7 @@ editor.fx.0.height=744
 editor.fx.0.width=1382
 editor.fx.0.x=-8
 editor.fx.0.y=-8
+>>>>>>> f3bb3e633afda438d76ec0d8f70ec73aa09509ba
 objectbench.height=105
 objectbench.width=801
 package.divider.horizontal=0.600297176820208
