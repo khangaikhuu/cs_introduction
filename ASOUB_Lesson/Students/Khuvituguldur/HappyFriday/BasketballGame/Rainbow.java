@@ -15,5 +15,7 @@ public class Rainbow extends MyWorld
      */
     public Rainbow()
     {
+        GoldenBall ball = new GoldenBall();
+        addObject(ball, 100, 200);
     }
 }

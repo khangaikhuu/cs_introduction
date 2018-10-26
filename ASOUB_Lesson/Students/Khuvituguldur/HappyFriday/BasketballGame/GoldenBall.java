@@ -13,11 +13,7 @@ public class GoldenBall extends Actor
     double e = 2.779;
     public void act() 
     {
-        setLocation(0, 500)
-        seLocation(getX) = dx, getY() + getypos(dx)); 
+      
     } 
-    public double getypos(int x)
-    {
-          return getypos;
-    }
+    
 }

@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.GoldenBall.image=gold-ball.png
 class.Rainbow.image=bathroom-tile.jpg
+dependency1.from=Rainbow
+dependency1.to=GoldenBall
+dependency1.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=0
 height=744
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=3
 project.charset=UTF-8
 publish.hasSource=false
