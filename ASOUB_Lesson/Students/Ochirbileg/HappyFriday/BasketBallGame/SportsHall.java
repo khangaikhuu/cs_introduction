@@ -15,5 +15,8 @@ public class SportsHall extends MyWorld
      */
     public SportsHall()
     {
+        Ball ball = new Ball();
+   
+        addObject(ball, 300, 200);
     }
 }
