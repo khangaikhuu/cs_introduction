@@ -9,7 +9,11 @@ public class Exercise2
 {
    public boolean methodOne(boolean a)
    {
-       Return
-   
-   
+       return a;
    }
+   public double methodTwo(double a, double b)
+   {
+      return a + b;
+   }
+}
+   

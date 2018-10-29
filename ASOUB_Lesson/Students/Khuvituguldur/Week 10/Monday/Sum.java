@@ -11,5 +11,4 @@ public class Sum
    {
      return a + b + c;
    }
-    
 }
