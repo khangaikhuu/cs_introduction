@@ -6,12 +6,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class SportsHall extends World
+public class SportsHall extends MyWorld
 {
+
+    /**
+     * Constructor for objects of class SportsHall.
+     * 
+     */
     public SportsHall()
-    {    
-        super(800, 500, 1); 
+    {
         Ball ball = new Ball();
-        addObject(ball, 300, 400);
+   
+        addObject(ball, 300, 200);
     }
 }

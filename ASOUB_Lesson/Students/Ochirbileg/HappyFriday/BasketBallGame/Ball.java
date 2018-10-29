@@ -8,16 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Ball extends Actor
 {
-    int dx = 8;
-    int dy = 5;
-    double e = 2.718;
+    /**
+     * Act - do whatever the Ball wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
     public void act() 
     {
-        setLocation(0, 500);
-        setLocation(getX() + dx, getY() + getypos(dx));
-    }
-    
-    public double getypos(int x){
-        return e ** x;
-    }
+        // Add your action code here.
+        
+    }    
 }
