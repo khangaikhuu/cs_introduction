@@ -14,6 +14,6 @@ public class Monkey extends Actor
      */
     public void act() 
     {
-        setLocation (200,400);// Add your action code here.
+        
     }    
 }
