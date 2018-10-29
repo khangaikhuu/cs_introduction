@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Ball.image=ball.png
 class.SportsHall.image=hall.jpg
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+dependency1.from=SportsHall
+dependency1.to=Ball
+dependency1.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=275
+editor.fx.0.y=10
 height=784
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
@@ -38,5 +41,6 @@ target2.x=0
 target2.y=0
 version=3.0.0
 width=1382
+world.lastInstantiated=SportsHall
 xPosition=-8
 yPosition=-8
