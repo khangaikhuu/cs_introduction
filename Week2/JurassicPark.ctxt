@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=JurassicPark
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ JurassicPark\ here.\r\n\r\n\ @author\ (Ochirbileg)\r\n\ @version\ (2018)\r\n
-comment1.params=D1\ D2\ D3
-comment1.target=JurassicPark(Dinosaur,\ Dinosaur,\ Dinosaur)
-numComments=2

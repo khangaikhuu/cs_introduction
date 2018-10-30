@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=assignment14
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ assignment14\ here.\r\n\r\n\ @author\ (Anand)\r\n\ @version\ (October\ 3,\ 2018)\r\n
-comment1.params=
-comment1.target=int\ getSize()
-comment2.params=
-comment2.target=int\ getSum()
-numComments=3
