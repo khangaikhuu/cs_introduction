@@ -1,8 +1,9 @@
 
 /**
- * Write a description of class Exercise1 here.
+ * Write a program, which 
+ * calculates all elements of given array. {5, 4, 22, 34, 12} #39
  *
- * @author (your name)
+ * @author (Tulga)
  * @version (a version number or a date)
  */
 public class Exercise1
@@ -13,7 +14,8 @@ public class Exercise1
         int sum = 0;
         for (int i=0; i < array.length; i++) 
         {
-            System.out.println(array[i]);
+            sum= sum+ array [i];
         }
+        System.out.println (sum);
     }
 }
