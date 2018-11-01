@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SnakeWorld
+comment0.text=\r\n\ Snake\ lives\ in\ a\ world\ of\ 20\ by\ 20\ squares.\r\n\ \r\n\ @author\ (Antosh)\ \r\n\ @version\ (Week10)\r\n
+comment1.params=
+comment1.target=SnakeWorld()
+numComments=2
