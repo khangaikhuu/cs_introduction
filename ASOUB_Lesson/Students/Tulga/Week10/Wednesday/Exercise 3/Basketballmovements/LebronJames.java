@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Snake here.
+ * Write a description of class LebronJames here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Snake extends Actor
+public class LebronJames extends Actor
 {
     /**
-     * Act - do whatever the Snake wants to do. This method is called whenever
+     * Act - do whatever the LebronJames wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        this.setLocation(150,150);
+        // Add your action code here.
     }    
 }
