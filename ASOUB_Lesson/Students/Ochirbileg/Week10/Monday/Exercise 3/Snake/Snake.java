@@ -14,6 +14,6 @@ public class Snake extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        this.setLocation(150,150);
     }    
 }
