@@ -1,47 +1,52 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class flappybird here.
+ * Write a description of class Ptica here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class flappybird extends Actor
+public class FlappyBird extends Actor
 {
-    double dy = 0.0;
-    double g = 1.0;
-    double BOOST_SPEED = -5;
-    
+
+    double dy=0;
+    double g=1.3;
+    double boost_speed=-8;
+    int c = 1;
+    Counter counter;
+    public int timer = 0;
     public void act() 
     {
-        if (getOneIntersectingObject(Pipe.class) != null){
-            displayGameOver();
+        timer++;
+        c++;
+        if(c<=30){
+            if(c%10==0){
+                setImage("flappybird" + c/10 + ".png");
+            }
+            
         }
-        
-        rotateFlappyBird();
-        setLocation( getX(), (int)(getY() + dy));
-        
-        if (Greenfoot.isKeyDown("space") == true){
-            dy = BOOST_SPEED;
+        else{
+            c=1;
         }
-        
-        if (getY() > getWorld().getHeight()){
-            System.out.println("Game Over");
+        setLocation(getX(), (int)(getY() + dy));
+        if (getOneIntersectingObject(Pipe.class) != null) {
             gameover gameOver = new gameover();
-            getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+            getWorld().addObject(gameOver, getWorld().getWidth()/2,getWorld().getHeight()/2);
             Greenfoot.stop();
         }
+        if (Greenfoot.isKeyDown("space"))
+        {
+            dy= boost_speed;
 
-        dy = dy + g;
-    }
-    
-    private void displayGameOver(){
-        displayGameOver();
-    }
-    
-    private void rotateFlappyBird(){
-        if (dy < 1){
-            setRotation(-30);
         }
-    }
+        
+        
+        if (getY() == getWorld().getHeight()-1)
+        {
+            gameover gameOver = new gameover();
+            getWorld().addObject(gameOver, getWorld().getWidth()/2,getWorld().getHeight()/2);
+            Greenfoot.stop();
+        }
+        dy= dy + g;
+    }    
 }
