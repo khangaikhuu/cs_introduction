@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.Bear.image=wombat.png
 class.Desert.image=weave.jpg
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+dependency1.from=Desert
+dependency1.to=Bear
+dependency1.type=UsesDependency
+editor.fx.0.height=744
+editor.fx.0.width=1382
+editor.fx.0.x=-8
+editor.fx.0.y=-8
 height=744
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false

@@ -17,6 +17,10 @@ public class Desert extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(500, 500, 1); 
-        
+        //creat Bear object
+        Bear bear= new Bear();
+        // add Bear to the world
+        addObject(bear, 100, getHeight()/2);
     }
+    
 }
