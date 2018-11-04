@@ -1,4 +1,3 @@
-// WARNING: This file is auto-generated and any changes to it will be overwritten
 import lang.stride.*;
 import java.util.*;
 import greenfoot.*;
@@ -14,5 +13,10 @@ public class Ocean extends MyWorld
      */
     public Ocean()
     {
+        //Create a Whale object
+        Whale dolphin = new Whale();
+        // add Whale to the world
+        addObject(dolphin, 100, getHeight()/2);
+        
     }
 }
