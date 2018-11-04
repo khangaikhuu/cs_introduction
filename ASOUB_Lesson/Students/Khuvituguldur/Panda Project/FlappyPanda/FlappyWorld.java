@@ -22,5 +22,6 @@ public class FlappyWorld extends World
         // Add flappy to the world
         addObject(flappy, 100, getHeight()/2);
         
+        
     }
 }
