@@ -8,13 +8,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Pipe extends Actor
 {
-    int PIPE_SPEED = -4;
-    /**
-     * Act - do whatever the Pipe wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    FlappyBird flappyBird;
+    Counter counter;
+    public int timer = 0;
+    public Pipe(Counter c,FlappyBird f)
+    {
+        counter=c;
+        flappyBird=f;
+    }
+    int pipe_speed = -4;
     public void act() 
     {
-        setLocation(getX() + PIPE_SPEED, getY()); 
+        setLocation( getX() + pipe_speed, getY());
+
+        if(getX()<=20)
+            getWorld().removeObject(this);      
     }    
 }
+
