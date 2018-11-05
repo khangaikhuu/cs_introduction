@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MaximumValue
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MaximumValue\ here.\r\n\r\n\ @author\ (Antosh)\r\n\ @version\ (Week11)\r\n
+comment1.params=arr\ low\ high
+comment1.target=int\ findMaximum(int[],\ int,\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

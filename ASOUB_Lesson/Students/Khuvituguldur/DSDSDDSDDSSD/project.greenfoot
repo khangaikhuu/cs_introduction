@@ -4,11 +4,19 @@ class.REd.image=download\ (1).jpeg
 dependency1.from=REd
 dependency1.to=Grizzly
 dependency1.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=-4
+<<<<<<< HEAD
+editor.fx.0.height=738
+editor.fx.0.width=713
+editor.fx.0.x=647
+editor.fx.0.y=25
+height=744
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=28
+>>>>>>> 1fb1b667764415c294bba4f70c528a978e9641ca
 package.numDependencies=1
 package.numTargets=3
 project.charset=UTF-8
@@ -47,7 +55,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-width=160
+width=1382
 world.lastInstantiated=REd
-xPosition=-32000
-yPosition=-32000
+xPosition=-8
+yPosition=-8
