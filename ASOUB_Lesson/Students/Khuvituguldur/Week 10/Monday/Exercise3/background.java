@@ -15,6 +15,9 @@ public class background extends MyWorld
      */
     public background()
     {
-        
+        //create animal object
+        animal scorp = new animal();
+        // add animal to the world
+        addObject(scorp, 100, getHeight()/2);
     }
 }
