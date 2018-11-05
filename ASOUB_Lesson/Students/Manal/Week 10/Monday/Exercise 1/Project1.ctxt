@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Project1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Project1\ here.\r\n\r\n\ @author\ (Manal)\r\n\ @version\ (Week\ 10\ Monday)\r\n
+comment1.params=x\ y
+comment1.target=void\ quoRem(int,\ int)
+numComments=2
