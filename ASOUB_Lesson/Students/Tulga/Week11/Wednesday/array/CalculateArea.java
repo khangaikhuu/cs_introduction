@@ -12,4 +12,9 @@ public class CalculateArea
     {
         return pi * 2 * radius;
     }
+    public double CalculatePerimeter ( int radius )
+    {
+        return pi * radius * radius;
+    }
+    
 }
