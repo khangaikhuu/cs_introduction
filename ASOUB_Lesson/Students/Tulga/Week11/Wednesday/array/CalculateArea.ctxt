@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CalculateArea
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CalculateArea\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=radius
+comment1.target=double\ CalculateArea(int)
+comment2.params=radius
+comment2.target=double\ CalculatePerimeter(int)
+numComments=3
