@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MinimumOfArray
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MinimumOfArray\ here.\r\n\r\n\ @author\ (Antosh)\r\n\ @version\ (Week11)\r\n
+comment1.params=numbers
+comment1.target=int\ getMinValue(int[])
+numComments=2
