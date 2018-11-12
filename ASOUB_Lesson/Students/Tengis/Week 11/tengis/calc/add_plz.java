@@ -8,6 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class add_plz extends Actor
 {
+    public add_plz()
+    {
+        GreenfootImage myImage = getImage();
+        myImage.scale(myImage.getWidth() - 10, myImage.getHeight() - 10);
+        setImage(myImage);
+    }
     /**
      * Act - do whatever the add_plz wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -15,14 +21,6 @@ public class add_plz extends Actor
     public void act() 
     {
         // Add your action code here.
-         GreenfootImage myImage = getImage();
-      
-        myImage.drawRect(5,5,100, 100);
-        myImage.setColor(Color.RED);
- 
+       
     }    
-    
-    public void update()
-    {
-    }
 }
