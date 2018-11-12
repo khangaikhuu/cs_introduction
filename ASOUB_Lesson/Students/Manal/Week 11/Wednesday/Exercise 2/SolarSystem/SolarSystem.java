@@ -32,5 +32,6 @@ public class SolarSystem extends World
         Pluto p = new Pluto();
         Uranus u = new Uranus();
         addObject(sun, 100, 200);
+        addObject(mercury, 200, 200);
     }
 }

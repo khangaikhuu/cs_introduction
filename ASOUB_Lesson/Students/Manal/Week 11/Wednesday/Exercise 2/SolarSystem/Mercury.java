@@ -12,8 +12,10 @@ public class Mercury extends Actor
      * Act - do whatever the Mercury wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public Mercury() 
     {
-        // Add your action code here.
+        GreenfootImage img = getImage();
+        img.scale(img.getWidth() / 10, img.getHeight() / 10);
+        setImage(img);
     }    
 }
