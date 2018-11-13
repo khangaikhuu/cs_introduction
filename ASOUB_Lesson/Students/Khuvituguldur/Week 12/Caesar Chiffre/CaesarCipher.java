@@ -1,71 +1,88 @@
- 
+import java.util.Scanner;
 /**
- * Write a description of class Program here.
+ * Write a description of class CaesarChiffre here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-import java.util.*;
-class CaesarCipher
+public class CaesarCipher
 {
- public static void main(String args[])
- {
- Scanner sc=new Scanner(System.in);
- int shift,i,n;
- String str;
- String str1="";
- String str2="";
- System.out.println("Enter the plaintext");
- str=sc.nextLine();
- str=str.toLowerCase();
- n=str.length();
- char ch1[]=str.toCharArray();
- char ch3,ch4;
- System.out.println("Enter the value by which each letter of the string is to be shifted");
- shift=sc.nextInt();
+    public static String encrypt(String plain, int key){
+        if (key > 26){
+            key = key%26;
+        }
+        else if (key < 0){
+            key = (key%26) + 26;
+        }
+        String cipher = "";
+        int length = plain.length();
+        for (int i = 0; i < length; i++){
+            char ch = plain.charAt(i);
+            if (Character.isLetter(ch)){
+                if (Character.isLowerCase(ch)){
+                    char c = (char)(ch + key);
+                    if (c > 'z'){
+                        cipher += (char)(ch - (26-key));
+                    }
+                    else {
+                        cipher += c;
+                    }
+                }
+                else if (Character.isUpperCase(ch)){
+                    char c = (char)(ch + key);
+                    if (c > 'Z'){
+                        cipher += (char)(ch - (26-key));
+                    }
+                    else {
+                        cipher += c;
+                    }
+                }
+            }
+            else {
+                cipher += ch;
+            }
+        }
+        return cipher;
+    }
+    
+    public static void main(String...s){
+        String message, decryptedMessage = "";
+        int key;
+        char ch;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter a message: ");
+        message = sc.nextLine();
+        
+        System.out.println("Enter key: ");
+        key = sc.nextInt();
  
- System.out.println();
- System.out.println("Encrypted text is");
- for(i=0;i<n;i++)
- {
- if(Character.isLetter(ch1[i]))
- {
- ch3=(char)(((int)ch1[i]+shift-97)%26+97);
- //System.out.println(ch1[i]+" = "+ch3);
- str1=str1+ch3;
- } 
- else if(ch1[i]==' ')
- {
- str1=str1+ch1[i];
- } 
- }
- System.out.println(str1);
- 
- System.out.println();
- System.out.println("Decrypted text is");
- 
- char ch2[]=str1.toCharArray();
- for(i=0;i<str1.length();i++)
- {
- if(Character.isLetter(ch2[i]))
- {
- if(((int)ch2[i]-shift)<97)
- {
- ch4=(char)(((int)ch2[i]-shift-97+26)%26+97);
- 
- }
- else
- {
- ch4=(char)(((int)ch2[i]-shift-97)%26+97);
- }
- str2=str2+ch4;
- } 
- 
- else if(ch2[i]==' ')
- {
- str2=str2+ch2[i];
- } 
- }
- System.out.println(str2);
- }
+        for(int i = 0; i < message.length(); ++i){
+            ch = message.charAt(i);
+            
+            if(ch >= 'a' && ch <= 'z'){
+                ch = (char)(ch - key);
+                
+                if(ch < 'a'){
+                    ch = (char)(ch + 'z' - 'a' + 1);
+                }
+                
+                decryptedMessage += ch;
+            }
+            else if(ch >= 'A' && ch <= 'Z'){
+                ch = (char)(ch - key);
+                
+                if(ch < 'A'){
+                    ch = (char)(ch + 'Z' - 'A' + 1);
+                }
+                
+                decryptedMessage += ch;
+            }
+            else {
+                decryptedMessage += ch;
+            }
+        }
+        
+        System.out.println("Decrypted Message = " + decryptedMessage);
+    }
 }
