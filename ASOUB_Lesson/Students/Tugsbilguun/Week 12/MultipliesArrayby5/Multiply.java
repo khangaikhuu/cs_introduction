@@ -8,7 +8,7 @@
 public class Multiply
 {
     private int[] array = {1,2,3,4,7};
-    private int[] array2 = new int[5];
+    private int[] array2 = new int[array.length];
     private int[] s = array2;
     public int[] multiplyArray(){
         for (int i = 0; i<array.length; i++){
