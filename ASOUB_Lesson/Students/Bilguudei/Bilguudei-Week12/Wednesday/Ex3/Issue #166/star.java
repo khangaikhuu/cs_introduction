@@ -1,17 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class star here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class star extends Actor
 {
-    /**
-     * Act - do whatever the star wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    int dx=5;
     public void act() 
     {
         GreenfootImage image = getImage();  
@@ -19,7 +10,11 @@ public class star extends Actor
         setImage(image);
     
         if(Greenfoot.mouseClicked(this)){
+            dx=dx+10;
             Greenfoot.playSound("slurp.wav");
+            getWorld().addObject(new star(),310+dx,300);
+            
+            
         }  
         
     }
