@@ -22,23 +22,26 @@ public class Calculator extends World
         multiply multiply = new multiply();
         plus plus = new plus();
         sq2 sq2 = new sq2();
+        Result_box a = new Result_box();
         //Positioning numpad
-        addObject (one,500
-        addObject (two,
-        addObject (three,
-        addObject (four,
-        addObject (five,
-        addObject (six,
-        addObject (seven,
-        addObject (eight,
-        addObject (nine,
-        addObject (zero,
+        addObject (one,100,200);
+        addObject (two,250,200);
+        addObject (three,400,200);
+        addObject (four,100,275);
+        addObject (five,250,275);
+        addObject (six,400,275);
+        addObject (seven,100,350);
+        addObject (eight,250,350);
+        addObject (nine,400,350);
+        addObject (zero,250,425);
         //Positioning functions
-        addObject (minus,
-        addObject (plus,
-        addObject (multiply,
-        addObject (division,
-        addObject (sq2,
+        addObject (minus,575,200);
+        addObject (plus,725,200);
+        addObject (multiply,575,275);
+        addObject (division,725,275);
+        addObject (sq2,575,350);
+        addObject (clear, 725,350);
+        addObject (a,400,75);
         
         
         
