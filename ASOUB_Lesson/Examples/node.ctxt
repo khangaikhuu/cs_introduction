@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Node\ here.\r\n\r\n\ @author\ (Panda)\r\n\ @version\ (September\ 12)\r\n
+comment1.params=s
+comment1.target=void\ setSize(int)
+comment2.params=b
+comment2.target=void\ setHasContent(boolean)
+comment3.params=
+comment3.target=int\ getSize()
+comment4.params=
+comment4.target=boolean\ getHasContent()
+numComments=5

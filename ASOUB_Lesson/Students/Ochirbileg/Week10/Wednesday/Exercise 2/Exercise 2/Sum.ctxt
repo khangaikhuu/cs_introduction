@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Sum
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sum\ here.\r\n\r\n\ @author\ (Antosh)\r\n\ @version\ (Week\ 10)\r\n
+comment1.params=a\ b\ c\ d
+comment1.target=int\ calculateSum(int,\ int,\ int,\ int)
+numComments=2

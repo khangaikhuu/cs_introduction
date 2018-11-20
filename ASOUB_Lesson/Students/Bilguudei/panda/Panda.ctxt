@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Panda
+comment1.params=
+comment1.target=Panda()
+comment2.params=var1\ var2
+comment2.target=Panda(int,\ int)
+numComments=3

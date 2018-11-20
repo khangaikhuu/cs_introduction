@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Exercise1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Exercise1\ here.\r\n\r\n\ @author\ (Khangaikhuu)\r\n\ @version\ (Wednesday\ 2018.10.24)\r\n
+comment1.params=
+comment1.target=int\ sumOfArrays()
+comment2.params=arrays
+comment2.target=int\ sumOfArrays(int[])
+comment3.params=arrays
+comment3.target=double\ averageOfArrays(int[])
+numComments=4
