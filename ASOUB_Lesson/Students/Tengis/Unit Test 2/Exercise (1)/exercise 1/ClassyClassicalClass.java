@@ -1,3 +1,5 @@
+// did not use for loop and also 
+// an array no parameter giving to the method
 public class ClassyClassicalClass
 {
     int [] a = {3, 1, 2, -1, 4, 6, 19, 22, 10};
