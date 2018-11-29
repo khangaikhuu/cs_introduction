@@ -1,12 +1,15 @@
 #Greenfoot project file
 class.MyWorld.image=b747136c0c47ae004247ad22579196ce.jpg
 class.SoccerBall.image=128045d4767684ca0ad0b46589a2d3d45f5621.png
-editor.fx.0.height=738
-editor.fx.0.width=816
-editor.fx.0.x=104
-editor.fx.0.y=-3
+dependency1.from=MyWorld
+dependency1.to=SoccerBall
+dependency1.type=UsesDependency
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=744
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 project.charset=UTF-8
 publish.hasSource=false
