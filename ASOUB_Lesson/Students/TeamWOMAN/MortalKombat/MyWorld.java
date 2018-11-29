@@ -25,7 +25,7 @@ public class MyWorld extends World
         naruto naruto = new naruto();
         roshi roshi = new roshi();
         sasuke sasuke = new sasuke();
-        vegeta vegeta = new vegeta();
+        
         
         addObject (tanya, 100, 300);
         addObject (best, 150, 300);
@@ -35,6 +35,6 @@ public class MyWorld extends World
         addObject (naruto, 400, 300);
         addObject (roshi, 450, 300);
         addObject (sasuke, 500, 300);
-        addObject (vegeta, 550, 300);
+        
     }
 }
