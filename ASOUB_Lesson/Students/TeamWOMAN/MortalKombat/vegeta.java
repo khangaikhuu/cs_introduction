@@ -15,5 +15,8 @@ public class vegeta extends Actor
     public void act() 
     {
         // Add your action code here.
+        GreenfootImage image = getImage();
+        image.scale(100,150);
+        setImage(image);
     }    
 }
