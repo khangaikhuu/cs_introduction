@@ -1,10 +1,10 @@
 #Greenfoot project file
 class.MyWorld.image=896091_plants-vs-zombies-wiki-battles-day-vs-night-plants-vs-zombies_1400x600_h.jpg
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=392
-editor.fx.0.y=40
-height=585
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=744
 package.numDependencies=0
 package.numTargets=1
 project.charset=UTF-8
@@ -29,7 +29,7 @@ target1.width=80
 target1.x=0
 target1.y=0
 version=3.0.0
-width=1594
+width=1382
 world.lastInstantiated=MyWorld
-xPosition=-287
-yPosition=34
+xPosition=-8
+yPosition=-8
