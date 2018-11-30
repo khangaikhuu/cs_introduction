@@ -12,18 +12,29 @@ public class Mario extends Actor
     private int velocity;
     public void act() 
     {
-        if (Greenfoot.isKeyDown("right")){
+        if (Greenfoot.isKeyDown("right"))
+        {
             setLocation(getX() + 5, getY());
         }
-        if (Greenfoot.isKeyDown("left")){
+        if (Greenfoot.isKeyDown("left"))
+        {
             setLocation(getX() - 5, getY());
         }
         fall();
-        if (Greenfoot.isKeyDown("space")) jump();
+        if (Greenfoot.isKeyDown("space")) 
+        {
+            jump();
+        }
     }
+    
     public void fall(){
         setLocation(getX(), getY() + velocity);
+        Actor a = this.getOneIntersectingObject(Border.class);
         if (getY() > getWorld().getHeight() - 5) 
+        {
+            velocity = 0;
+        }
+        else if (a != null)
         {
             velocity = 0;
         }
@@ -31,12 +42,8 @@ public class Mario extends Actor
         {
             velocity += gravity;
         }
-        while(getOneIntersectingObject(null)!=null)
-        {
-            setLocation(getX() - 0, getY());
-        }
-        
     }
+    
     public void jump(){
         velocity = -10;
     }
