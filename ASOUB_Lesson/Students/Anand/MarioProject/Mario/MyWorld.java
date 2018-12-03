@@ -19,5 +19,7 @@ public class MyWorld extends World
         super(960, 540, 1); 
         Mario mario = new Mario();
         addObject(mario, 100, 400);
+        Border border = new Border();
+        addObject(border, 480, 505);
     }
 }

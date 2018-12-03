@@ -15,5 +15,8 @@ public class allmight extends Actor
     public void act() 
     {
         // Add your action code here.
+        GreenfootImage image = getImage();
+        image.scale(80,150);
+        setImage(image);
     }    
 }
