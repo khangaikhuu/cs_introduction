@@ -1,37 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Mario here.
+ * Write a description of class Mushroom here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Mario extends Actor
+public class Mushroom extends Actor
 {
     private int gravity = 1;
     private int velocity;
     public void act() 
     {
-        if (Greenfoot.isKeyDown("right"))
-        {
-            setLocation(getX() + 5, getY());
-        }
-        if (Greenfoot.isKeyDown("left"))
-        {
-            setLocation(getX() - 5, getY());
-        }
         fall();
-        if (Greenfoot.isKeyDown("space")) 
-        {
-            jump();
-        }
-        Actor b = this.getOneIntersectingObject(boxup.class);
-        if (b != null){
-            velocity = 0;
-            setLocation(getX(), getY());
-        }   
     }
-    
     public void fall(){
         setLocation(getX(), getY() + velocity);
         Actor a = this.getOneIntersectingObject(Border.class);
@@ -51,5 +33,5 @@ public class Mario extends Actor
     
     public void jump(){
         velocity = -10;
-    }
+    }    
 }
