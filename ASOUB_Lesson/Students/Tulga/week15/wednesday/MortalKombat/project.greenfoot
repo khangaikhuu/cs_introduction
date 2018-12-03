@@ -67,5 +67,5 @@ target4.y=0
 version=3.0.0
 width=1616
 world.lastInstantiated=MyWorld
-xPosition=-8
-yPosition=0
+xPosition=-32000
+yPosition=-32000
