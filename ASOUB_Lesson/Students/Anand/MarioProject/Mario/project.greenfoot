@@ -5,28 +5,19 @@ class.MyWorld.image=Background.jpg
 dependency1.from=MyWorld
 dependency1.to=Mario
 dependency1.type=UsesDependency
-<<<<<<< HEAD
-=======
 dependency2.from=MyWorld
 dependency2.to=Border
 dependency2.type=UsesDependency
 dependency3.from=Mario
 dependency3.to=Border
 dependency3.type=UsesDependency
->>>>>>> 657c0040243ef8a7b76d85f008762eb411e72342
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-<<<<<<< HEAD
-height=28
-package.numDependencies=1
-package.numTargets=2
-=======
 height=744
 package.numDependencies=3
 package.numTargets=3
->>>>>>> 657c0040243ef8a7b76d85f008762eb411e72342
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -63,11 +54,7 @@ target3.width=80
 target3.x=0
 target3.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=160
-=======
 width=1382
->>>>>>> 657c0040243ef8a7b76d85f008762eb411e72342
 world.lastInstantiated=MyWorld
-xPosition=-32000
-yPosition=-32000
+xPosition=-8
+yPosition=-8
