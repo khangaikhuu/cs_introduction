@@ -1,5 +1,7 @@
 #Greenfoot project file
+<<<<<<< HEAD
 class.MyWorld.image=896091_plants-vs-zombies-wiki-battles-day-vs-night-plants-vs-zombies_1400x600_h.jpg
+<<<<<<< HEAD
 class.Owner.image=rsz_cartoon-2026564_640.png
 class.Plant1.image=rsz_hd_sunflower.png
 class.Plant2.image=rsz_orig.gif
@@ -73,6 +75,33 @@ editor.fx.0.y=1
 height=754
 package.numDependencies=16
 package.numTargets=19
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=744
+package.numDependencies=0
+package.numTargets=1
+=======
+class.Garden.image=896091_plants-vs-zombies-wiki-battles-day-vs-night-plants-vs-zombies_1400x600_h.jpg
+class.Zombie1.image=30308-3.png
+dependency1.from=Garden
+dependency1.to=Zombie1
+dependency1.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=392
+editor.fx.0.y=40
+height=28
+package.numDependencies=1
+<<<<<<< HEAD
+package.numTargets=2
+=======
+package.numTargets=3
+>>>>>>> refs/remotes/origin/master
+>>>>>>> 0e5794ab396ab5935d88f8d47265012332bd348a
+>>>>>>> 648b2f9e4f1c9188ea7f52d6b590befb0ac91ee4
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -88,12 +117,17 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
+<<<<<<< HEAD
 target1.name=Owner
+=======
+target1.name=Garden
+>>>>>>> 648b2f9e4f1c9188ea7f52d6b590befb0ac91ee4
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
+<<<<<<< HEAD
 target10.height=50
 target10.name=Plant3
 target10.showInterface=false
@@ -166,11 +200,16 @@ target19.x=0
 target19.y=0
 target2.height=50
 target2.name=Plant2
+=======
+target2.height=50
+target2.name=Zombie1
+>>>>>>> 648b2f9e4f1c9188ea7f52d6b590befb0ac91ee4
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
+<<<<<<< HEAD
 target3.height=50
 target3.name=Zombie2
 target3.showInterface=false
@@ -225,3 +264,24 @@ width=1040
 world.lastInstantiated=MyWorld
 xPosition=-8
 yPosition=-8
+=======
+version=3.0.0
+<<<<<<< HEAD
+width=160
+world.lastInstantiated=Garden
+xPosition=-32000
+yPosition=-32000
+=======
+<<<<<<< HEAD
+width=1382
+world.lastInstantiated=MyWorld
+xPosition=-8
+yPosition=-8
+=======
+width=1289
+world.lastInstantiated=Garden
+xPosition=-11
+yPosition=22
+>>>>>>> refs/remotes/origin/master
+>>>>>>> 0e5794ab396ab5935d88f8d47265012332bd348a
+>>>>>>> 648b2f9e4f1c9188ea7f52d6b590befb0ac91ee4
