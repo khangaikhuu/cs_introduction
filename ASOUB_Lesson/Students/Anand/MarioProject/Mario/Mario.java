@@ -24,12 +24,7 @@ public class Mario extends Actor
         if (Greenfoot.isKeyDown("space")) 
         {
             jump();
-        }
-        Actor b = this.getOneIntersectingObject(boxup.class);
-        if (b != null){
-            velocity = 0;
-            setLocation(getX(), getY());
-        }   
+        } 
     }
     
     public void fall(){
@@ -53,3 +48,4 @@ public class Mario extends Actor
         velocity = -10;
     }
 }
+

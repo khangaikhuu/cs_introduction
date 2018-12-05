@@ -8,14 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
-    /**
-     * Constructor for objects of class MyWorld.
-     * 
-     */
     public MyWorld()
     {    
-
         super(960, 465, 1, true); 
         Mario mario = new Mario();
         addObject(mario, 50, 400);
@@ -48,8 +42,8 @@ public class MyWorld extends World
         Coin coin5 = new Coin();
         addObject(coin5, 300, 300);
         boxup up = new boxup();
-        addObject(up, 360, 281);
+        addObject(up, 440, 281);
         boxup up1 = new boxup();
-        addObject(up1, 440, 281);
+        addObject(up1, 360, 281);
     }
 }
