@@ -1,3 +1,5 @@
+package Week2;
+
 
 /**
  * Write a description of class MyClass here.
