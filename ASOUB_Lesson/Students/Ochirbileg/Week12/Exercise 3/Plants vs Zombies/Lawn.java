@@ -56,7 +56,70 @@ public class Lawn extends World
                     }
                 }
             }
-            if(select == 
+            if(select == 1)
+            {
+               if(sCooldown == 0 && mouse != null && Greenfoot.getMouseInfo().getButton() == 1 && getYSlot() != 0 && getXSlot)
+               {
+                  Grid[(((getYSlot()-1)*9)+getXSlot())-1] = 0;
+                  select = 0;
+               }
+            }
+            if(sCooldown > 0)
+            {
+                sCooldown--;
+            }
+            if(timer > 0)
+            {
+                if(Greenfoot.getRandomNumber((timer-1)/8) == 0)
+                {
+                    addZombie(Greenfoot.getRandomNumber(5)+1);
+                }
+                timer--;
+            }
+            else
+            {
+                if(getObjects(Zombie.class).size() < 1)
+                {
+                    game = 3;
+                }
+            }
+            if(Greenfoot.getRandomNumber(900) == 0)
+            {
+                sunID = 2;
+                landY = Greenfoot.getRandomNumber(250)+40;
+                addObject (new Sun(), Greenfoot.getRandomNumber(378)+125, 0);
+            }
         }
+        else
+        {
+            if(game == 0)
+            {
+                if(mouse != null)
+                {
+                    if(mouse.getY() > 100 && mouse.getY() < 250 && mouse.getX() > 215 && mouse.getX() < 485)
+                    {
+                        setBackground("Menu2.jpg");
+                        if(mouse.getButton() == 1)
+                        {
+                            game = 2;
+                            placeCards();
+                            populatedGrid();
+                            setBackground("BK.jpg");
+                            sunCounter();
+                            sunID = 2;
+                            timer = 21000;
+                            addObject(new endtext(), 350,150);
+                        }
+                    }
+                    else
+                    {
+                        setBackground("Menu2.jpg");
+                    }
+                }
+            }
+        }
+    }
+    public int getListNumber(int nun, int list)
+    {
     }
 }
