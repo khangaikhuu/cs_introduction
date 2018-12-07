@@ -19,5 +19,8 @@ public class mashin extends Actor
         image.scale(100,70);
         setImage(image);
         setLocation((int) (getX()+dx), (int)(getY()));
+        if (Greenfoot.mouseClicked(this)){
+            Greenfoot.playSound("siren.wav");
+        }
     }    
 }

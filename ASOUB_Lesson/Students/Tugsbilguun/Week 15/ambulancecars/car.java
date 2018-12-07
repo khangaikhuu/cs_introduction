@@ -16,10 +16,12 @@ public class car extends Actor
     public void act() 
     {
         // Add your action code here.
-        GreenfootImage image = getImage();
-        image.scale(100,70);
-        setImage(image);
-        setLocation((int) (getX()-dx), (int)(getY()));
+    GreenfootImage image = getImage();
+    image.scale(100,70);
+    setImage(image);
+    setLocation((int) (getX()-dx), (int)(getY()));
+        if (Greenfoot.mouseClicked(this)){
         Greenfoot.playSound("siren.wav");
+    }
     }    
 }
