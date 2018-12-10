@@ -24,7 +24,7 @@ public class Mario extends Actor
         if (Greenfoot.isKeyDown("space")) 
         {
             jump();
-        }
+        } 
     }
     
     public void fall(){
@@ -48,3 +48,4 @@ public class Mario extends Actor
         velocity = -10;
     }
 }
+
