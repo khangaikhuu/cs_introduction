@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Week16WExercise3
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Week16WExercise3\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=hour\ minutes
+comment1.target=void\ clock(int,\ int)
+numComments=2
