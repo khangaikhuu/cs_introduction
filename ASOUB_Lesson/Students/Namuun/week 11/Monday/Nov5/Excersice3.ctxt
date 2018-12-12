@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Excersice3
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Excersice3\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=a\ b\ c\ d
-comment1.target=int\ Subtraction(int,\ int,\ int,\ int)
-numComments=2
