@@ -51,10 +51,17 @@ dependency8.type=UsesDependency
 dependency9.from=Coin
 dependency9.to=Mario
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=-4
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> 1999391ae4b8ac1f9d8ff4ac084035bba2870bb1
 height=650
 package.numDependencies=14
 package.numTargets=10
