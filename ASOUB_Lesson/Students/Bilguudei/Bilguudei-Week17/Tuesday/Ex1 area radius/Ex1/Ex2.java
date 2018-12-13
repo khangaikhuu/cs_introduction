@@ -1,12 +1,12 @@
 import java.lang.Math; 
   
 class Ex2 { 
-  
-    // driver code 
     public static void main(String args[]) 
     { 
-        double a = 400; 
+        double a = 314; 
+        double pi=3.14;
+        double d=Math.sqrt((a*4)/pi);
   
-        System.out.println(Math.sqrt(a));
+        System.out.println(d);
     }
 }
