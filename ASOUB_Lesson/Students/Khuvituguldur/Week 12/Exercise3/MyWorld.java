@@ -16,7 +16,7 @@ public class MyWorld extends World
         //create Panda object
         Panda panda = new Panda();
         // add Panda to the world 
-        addObject(panda, 100, getheight()/2);;
+        addObject(panda, 100, getHeight()/2);;
         super(1000, 800, 1);
     }
 }
