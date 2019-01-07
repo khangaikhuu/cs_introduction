@@ -14,9 +14,6 @@ public class Mushroom extends Actor
     {
         fall();
         Actor b = this.getOneIntersectingObject(Mario.class);
-        while (b == null){
-            setLocation(getX() + 10, getY());
-        }
         if (b != null){
             getWorld().removeObject(this);
         }
