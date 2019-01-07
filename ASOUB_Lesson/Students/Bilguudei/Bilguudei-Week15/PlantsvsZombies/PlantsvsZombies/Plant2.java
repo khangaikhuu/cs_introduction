@@ -14,6 +14,31 @@ public class Plant2 extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        
+    } 
+    public void shoot(){
+        
+        getWorld().addObject(new shoot(), getX(), getY());
+        
+    }
+    public void movePlayer()
+    {
+        if(Greenfoot.isKeyDown("up")) {
+            int ypos = getY() - 5; // ypos gets bigger which moves player up
+            setLocation(getX(), ypos);
+        }
+        
+        if(Greenfoot.isKeyDown("down")) {
+            int ypos = getY() + 5; // ypos gets smaller which moves player down
+            setLocation(getX(), ypos);
+        }
+        
+        if(Greenfoot.isKeyDown("space")) {
+            shoot();
+            setImage("Plant2-fire.png");
+        } else {
+            setImage("Plant2.png");
+        }
+        
+    }
 }
