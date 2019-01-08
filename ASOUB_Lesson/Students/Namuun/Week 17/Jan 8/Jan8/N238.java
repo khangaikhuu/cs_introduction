@@ -8,6 +8,16 @@
  import java.util.Scanner;
 class N238
 {
+   public static int[] ReverseArray (int[] Array)
+   {
+       int [] Temp = new int [Array.length];
+       for (int i = 0; i < Array.length; i ++)
+       {
+           Temp [Array.length - 1 - i] = Array[i];
+       }
+       return Temp;
+   }
+   
    public static void main(String args[])
    {
       int n, reverse = 0;
@@ -15,7 +25,7 @@ class N238
       System.out.println("Enter an Array to reverse");
       Scanner in = new Scanner(System.in);
       n = in.nextInt();
-         
+      
       while(n != 0)
       {
           reverse = reverse * 10;
