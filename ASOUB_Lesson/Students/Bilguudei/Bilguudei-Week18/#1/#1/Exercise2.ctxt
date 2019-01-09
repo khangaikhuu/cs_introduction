@@ -1,9 +1,7 @@
 #BlueJ class context
-comment0.target=exercise2
-comment1.params=arr\ start\ end
-comment1.target=void\ rvereseArray(int[],\ int,\ int)
-comment2.params=arr\ size
-comment2.target=void\ printArray(int[],\ int)
-comment3.params=args
-comment3.target=void\ main(java.lang.String[])
-numComments=4
+comment0.target=Exercise2
+comment1.params=arr\ item
+comment1.target=boolean\ contains(int[],\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
