@@ -1,5 +1,5 @@
 
-public class ThirdLargestNumberInAnArray {
+public class SecondndLargestNumberInAnArray {
    public static void main(String args[]){
       int temp, size;
       int array[] = {10, 20, 25, 63, 96, 57};
@@ -15,6 +15,6 @@ public class ThirdLargestNumberInAnArray {
             }
          }
       }
-      System.out.println("Third second largest number is:: "+array[size-2]);
+      System.out.println("Third second largest number is:: "+array[size-1]);
    }
 }
