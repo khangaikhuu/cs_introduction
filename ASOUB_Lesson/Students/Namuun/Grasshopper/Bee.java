@@ -10,6 +10,24 @@ public class Bee extends Actor
 {
     public void act() 
     {
-        super (210, 214, 1);
+        getImage().scale(150, 150);
+        
+        if (Greenfoot.isKeyDown("left"))
+        {
+            setLocation (getX()-5, getY());
+        }
+        if (Greenfoot.isKeyDown("right"))
+        {
+            setLocation (getX()+5, getY());
+        }
+        if (Greenfoot.isKeyDown("up"))
+        {
+            setLocation (getX(), getY()-5);
+        }
+        if (Greenfoot.isKeyDown("down"))
+        {
+            setLocation (getX(), getY()+5);
+        }
+        Greenfoot.playSound("slurp.wav");
     }    
 }
