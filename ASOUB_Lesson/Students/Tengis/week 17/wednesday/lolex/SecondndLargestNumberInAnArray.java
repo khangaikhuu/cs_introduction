@@ -16,5 +16,14 @@ public class SecondndLargestNumberInAnArray {
          }
       }
       System.out.println("Third second largest number is:: "+array[size-1]);
+      if (array[size-1] % 2 == 0)
+      {
+          System.out.println("Even");
+          
+        }
+        else 
+        {
+            System.out.println("odd");
+        }
    }
 }
