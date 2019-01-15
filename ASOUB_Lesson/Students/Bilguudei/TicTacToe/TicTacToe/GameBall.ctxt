@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GameBall
+comment1.params=
+comment1.target=GameBall()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ GameBall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ setGold()
+comment4.params=
+comment4.target=void\ setSteel()
+comment5.params=
+comment5.target=void\ reset()
+numComments=6
