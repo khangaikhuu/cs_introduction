@@ -10,6 +10,6 @@ public class Bee extends Actor
 {
     public void act() 
     {
-        super (210, 214, 1);
+        
     }    
 }
